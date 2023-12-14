@@ -1,0 +1,29 @@
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      ". Torno4 . Torno3 . Torno2 . Torno1 ."
+      ". Torno4 . Torno3 . Torno2 . Torno1 ."
+      ". . . . . . . . ."
+      ". Torno8 . Torno7 . Torno6 . Torno5 ."
+      ". Torno8 . Torno7 . Torno6 . Torno5 .";
+  }
+  
+  .Torno1 { grid-area: Torno1; }
+  
+  .Torno2 { grid-area: Torno2; }
+  
+  .Torno3 { grid-area: Torno3; }
+  
+  .Torno4 { grid-area: Torno4; }
+  
+  .Torno5 { grid-area: Torno5; }
+  
+  .Torno6 { grid-area: Torno6; }
+  
+  .Torno7 { grid-area: Torno7; }
+  
+  .Torno8 { grid-area: Torno8; }
+  
